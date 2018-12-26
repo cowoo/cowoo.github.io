@@ -1069,7 +1069,7 @@
 /* Basic */
 
 	body, input, textarea, select {
-		font-family: 'Open Sans', sans-serif;
+		font-family: Helvetica, 'Open Sans', sans-serif;
 		line-height: 1.85em;
 		color: #3f3f3f;
 		font-weight: 300;
@@ -2119,4 +2119,66 @@ ul.sub {
 	list-style: none;
 	padding-left: 1em;
 	text-align: left;
+}
+
+#matrix{
+/*  max-width: 800px;
+  padding: 40px;*/
+  /*border: 1px solid rgba(0,0,0,.2);*/
+  /*background: #fff;*/
+  margin-top: 40px;
+  /*box-shadow: 0 1px 3px rgba(0,0,0,.1);*/
+}
+
+#matrix section{
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #abc;
+}
+
+#matrix input {
+  display: none;
+}
+
+#matrix label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #abc;
+  border: 1px solid transparent;
+}
+
+#matrix label:before {
+  font-family: fontawesome;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+#matrix label[for*='topic']:before { content: '\f0f4'; }
+#matrix label[for*='method']:before { content: '\f11c'; }
+/*label[for*='3']:before { content: '\f16c'; }
+label[for*='4']:before { content: '\f171'; }
+*/
+#matrix label:hover {
+  color: #789;
+  cursor: pointer;
+}
+
+#matrix input:checked + label {
+  color: #0af;
+  border: 1px solid #abc;
+  border-top: 2px solid #0af;
+  border-bottom: 1px solid #fff;
+}
+
+#tab-topic:checked ~ #content-topic,
+#tab-method:checked ~ #content-method{
+  display: block;
+}
+
+#matrix td{
+	border: 0.5px solid;
+	padding: 0.5em 1em;
 }
