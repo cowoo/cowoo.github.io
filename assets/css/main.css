@@ -2179,6 +2179,6 @@ label[for*='4']:before { content: '\f171'; }
 }
 
 #matrix td{
-	border: 0.5px solid;
+	border: 0.5px solid #abc;
 	padding: 0.5em 1em;
 }
