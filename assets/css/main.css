@@ -2121,6 +2121,16 @@ ul.sub {
 	text-align: left;
 }
 
+li.award{
+	list-style-type: square;
+	margin-left: 1.5em;
+	font-size: 90%;
+}
+
+/*li.award:before{
+	content: "- ";
+}*/
+
 #matrix{
 /*  max-width: 800px;
   padding: 40px;*/
