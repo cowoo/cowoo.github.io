@@ -1096,7 +1096,7 @@
 	}
 
 		a:hover {
-			color: #43bff0 !important;
+			color: #0af !important;
 		}
 
 		a img {
@@ -2153,7 +2153,7 @@ li.award{
 #matrix label {
   display: inline-block;
   margin: 0 0 -1px;
-  padding: 15px 25px;
+  padding: 10px 15px;
   font-weight: 600;
   text-align: center;
   color: #abc;
