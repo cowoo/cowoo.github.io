@@ -2156,6 +2156,7 @@ ul.sub {
   margin-right: 10px;
 }
 
+#matrix label[for*='status']:before { content: '\f02d'; }
 #matrix label[for*='topic']:before { content: '\f0f4'; }
 #matrix label[for*='method']:before { content: '\f11c'; }
 /*label[for*='3']:before { content: '\f16c'; }
@@ -2173,6 +2174,7 @@ label[for*='4']:before { content: '\f171'; }
   border-bottom: 1px solid #fff;
 }
 
+#tab-status:checked ~ #content-status,
 #tab-topic:checked ~ #content-topic,
 #tab-method:checked ~ #content-method{
   display: block;
