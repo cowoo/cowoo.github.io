@@ -6,10 +6,10 @@ Crypto Economics is about the human side of crytpocurrency and blockchain techno
 
 This page summarizes my categorization of the on-going literature on crypto economics. 
 
-### Cryptocurrency Networks and Mining
+### Blockchain Networks and Mining
 
-### Cryptocurrency Adoption and Use
+### Smart Contracts and Crypto Tokens
 
-### Application of Blockchain and Tokens
+### DeFi Ecosystem
 
-### Security
+### Automated Market Maker
