@@ -2109,24 +2109,38 @@
 /* Added */
 /***************************************/
 
-ul.pub {
+ul.subsec {
 	list-style: disc;
 	padding-left: 1em;
 	text-align: left;
 }
 
-ul.sub {
-	list-style: none;
-	padding-left: 1em;
-	text-align: left;
-}
-
-li.award{
+li span.award{
+	display: list-item;
 	list-style-type: square;
+	list-style-position: outside;
 	margin-left: 1.5em;
 	font-size: 90%;
 }
 
+li span.description{
+	display: list-item;
+	list-style-type: square;
+	list-style-position: outside;
+	margin-left: 1.5em;
+	font-size: 90%;
+}
+
+/*ul.pub li{
+	list-style-type: none;
+	border: 2px solid #abc;
+	border-radius: 5px;
+}
+*/
+/*ul.pub span.journal{
+	display: block;
+}
+*/
 /*li.award:before{
 	content: "- ";
 }*/
