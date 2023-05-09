@@ -1091,7 +1091,7 @@
 		-webkit-transition: color .2s ease-in-out;
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
-		color: #43B3E0;
+		color: #004369;
 		text-decoration: none;
 	}
 
@@ -1698,7 +1698,7 @@
 		}
 
 	#top p a {
-		color: inherit;
+/*		color: inherit;*/
 	}
 
 /* Copyright */
@@ -1870,7 +1870,7 @@
 				}
 
 				#top p {
-					font-size: 1.25em;
+					font-size: 1.15em;
 					line-height: 1.5em;
 				}
 
@@ -1974,7 +1974,8 @@
 			}
 
 				header > p {
-					font-size: 1.25em;
+					font-size: 1.15em;
+					text-align: left;
 				}
 
 			footer {
