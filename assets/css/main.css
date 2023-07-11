@@ -1976,6 +1976,7 @@
 				header > p {
 					font-size: 1.15em;
 					text-align: left;
+					margin-bottom: 0;
 				}
 
 			footer {
