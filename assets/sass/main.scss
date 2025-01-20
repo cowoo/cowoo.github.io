@@ -1299,3 +1299,42 @@ section.card li{
 		background-color: transparent;
 	}
 }
+
+.news-year {
+	margin-bottom: 2em;
+	text-align: left;
+}
+
+.news-year h4 {
+	color: #666;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 0.5em;
+	margin-bottom: 1em;
+}
+
+.news-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.news-list li {
+	display: flex;
+	// margin-bottom: 0.2em;
+	padding: 0.5em;
+	transition: background-color 0.2s;
+}
+
+.news-list li:hover {
+	background-color: #f5f5f5;
+	border-radius: 4px;
+}
+
+.news-date {
+	flex: 0 0 80px;
+	color: #666;
+}
+
+.news-content {
+	flex: 1;
+}
