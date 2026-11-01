@@ -2182,4 +2182,32 @@ section.card li {
   box-shadow: 0 4px 12px rgba(26, 54, 93, 0.18);
 }
 
+/* Award callout */
+.award-callout {
+  background: linear-gradient(180deg, #fffaf0 0%, #ffffff 100%);
+  border: 1px solid #ecc94b;
+  border-left: 4px solid #d69e2e;
+  border-radius: 8px;
+  padding: 1em 1.25em;
+  margin-bottom: 1.5em;
+  text-align: left;
+}
+.award-callout p,
+#top .award-callout p {
+  margin: 0;
+  line-height: 1.55;
+}
+.award-callout .award-badge {
+  display: inline-block;
+  background: #b7791f;
+  color: #fff;
+  font-size: 0.75em;
+  font-weight: 600;
+  padding: 0.2em 0.7em;
+  border-radius: 4px;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 /*# sourceMappingURL=main.css.map */
